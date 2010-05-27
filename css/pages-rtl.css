@@ -1,0 +1,25 @@
+/* $Id: pages-rtl.css,v 1.7 2010/04/05 03:33:05 johnalbin Exp $ */
+
+/**
+ * @file
+ * RTL companion for the pages.css file.
+ */
+
+
+/*
+ * Header
+ */
+#logo /* Wrapping link for logo */ {
+  float: right;
+}
+
+/*
+ * Content
+ */
+.more-link /* Aggregator, blog, and forum more link */ {
+  text-align: left;
+}
+
+ul.links li /* List of links */ {
+  display: inline-block; /* Bug in Safari causes display: inline to fail. */
+}
