@@ -47,4 +47,5 @@
 
 .field-name-field-image /* Underscores in field name are replaced with dashes. */ {
   float: right;
+  margin: 4px;
 }
